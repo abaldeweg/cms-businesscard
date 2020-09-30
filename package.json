@@ -1,0 +1,21 @@
+{
+  "name": "@baldeweg/cms-businesscard",
+  "version": "0.1.0",
+  "description": "A simple CMS for your business card. Present yourself in an easy way.",
+  "main": "index.js",
+  "authors": {
+    "name": "André Baldeweg",
+    "email": "a@baldeweg.org"
+  },
+  "repository": "https://github.com/abaldeweg/cms-businesscard",
+  "scripts": {
+    "watch": "vuepress dev --host localhost --open content",
+    "build": "vuepress build -d dist content"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@baldeweg/components": "^5.0.0",
+    "vuepress": "^1.6.0"
+  },
+  "dependencies": {}
+}
