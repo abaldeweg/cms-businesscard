@@ -13,9 +13,9 @@
     "build": "vuepress build -d dist content"
   },
   "license": "MIT",
-  "devDependencies": {
-    "@baldeweg/components": "^5.0.0",
+  "devDependencies": {},
+  "dependencies": {
+    "@baldeweg/vuepress-theme-cms": "^0.1.0",
     "vuepress": "^1.6.0"
-  },
-  "dependencies": {}
+  }
 }
