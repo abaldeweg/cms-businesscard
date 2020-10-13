@@ -11,6 +11,11 @@ module.exports = {
     [ 'meta', { name: 'theme-color', content: '#e1661e' } ],
   ],
   themeConfig: {
+    colors: {
+      color10: '#e1661e',
+      color05: '#eeab84',
+      color00: '#fcf1ea'
+    },
     nav: [
       {
         text: 'Home',
