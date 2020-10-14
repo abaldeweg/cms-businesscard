@@ -9,13 +9,12 @@
   },
   "repository": "https://github.com/abaldeweg/cms-businesscard",
   "scripts": {
-    "watch": "vuepress dev --host localhost --open content",
-    "build": "vuepress build -d dist content"
+    "watch": "cms-cli dev",
+    "build": "cms-cli build"
   },
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
-    "@baldeweg/vuepress-theme-cms": "^0.1.0",
-    "vuepress": "^1.6.0"
+    "@baldeweg/cms-cli": "^0.1.0"
   }
 }

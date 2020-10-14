@@ -1,7 +1,6 @@
 const { description } = require('../../package')
 
 module.exports = {
-  theme: '@baldeweg/vuepress-theme-cms',
   title: 'baldeweg/cms-businesscard',
   description: description,
   locales: {
