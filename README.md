@@ -20,6 +20,8 @@ The config file `config.js` allows you to configure your navigation on the top a
 
 Place your logo in `content/.vuepress/public/` and define the filename in `content/.vuepress/config.js` under the `logo` key in the `themeConfig` config e.g. `logo: 'logo.svg'`.
 
+You can also set the height for the header. Use the `mastheadHeight` key under the `themeConfig` config to e.g. `mastheadHeight: '100px'`.
+
 You can make use of [Markdown](https://daringfireball.net/projects/markdown/syntax) and HTML.
 
 Include an image. Please, refer with an relative path (`./` in the following example) to the image.
