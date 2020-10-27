@@ -16,7 +16,7 @@ To build the static files you just have to run `yarn build`. Upload the files fr
 
 ## Content
 
-The config file `config.js` allows you to configure your navigation on the top and the bottom links. Set it to `null` if you want to deactivate it e.g. `nav: null`.
+The config file `config.js` allows you to configure your navigation on the top and the links at the bottom. Set it to `null` if you want to deactivate it e.g. `nav: null`.
 
 Place your logo in `content/.vuepress/public/` and define the filename in `content/.vuepress/config.js` under the `logo` key in the `themeConfig` config e.g. `logo: 'logo.svg'`.
 
@@ -24,11 +24,13 @@ You can also set the height for the header. Use the `mastheadHeight` key under t
 
 You can make use of [Markdown](https://daringfireball.net/projects/markdown/syntax) and HTML.
 
-Include an image. Please, refer with an relative path (`./` in the following example) to the image.
+Include an image.
 
 ```markdown
 ![Description](./image.png)
 ```
+
+Please, refer with a relative path (`./` in the following example) to the image.
 
 For more details on VuePress have a look at the [VuePress documentation](https://v1.vuepress.vuejs.org/).
 
