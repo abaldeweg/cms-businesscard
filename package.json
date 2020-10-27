@@ -1,6 +1,6 @@
 {
   "name": "@baldeweg/cms-businesscard",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A simple CMS for your business card. Present yourself in an easy way.",
   "main": "index.js",
   "authors": {
