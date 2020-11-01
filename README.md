@@ -32,6 +32,8 @@ Include an image.
 
 Please, refer with a relative path (`./` in the following example) to the image.
 
+You can set the `containerWidth` under the `themeConfig` key to l, m or s.
+
 For more details on VuePress have a look at the [VuePress documentation](https://v1.vuepress.vuejs.org/).
 
 The documentation for the components can be found on [Github](https://github.com/abaldeweg/components).
