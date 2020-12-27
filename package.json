@@ -15,6 +15,6 @@
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
-    "@baldeweg/cms-cli": "^0.2.0"
+    "@baldeweg/cms-cli": "^0.2.2"
   }
 }
